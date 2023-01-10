@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { MoviesGrid } from "./components/MoviesGrid";
+import './index.css'
 
 function App() {
   return (
     <div className="App">
-      <h1>test!!</h1>
+      <header>
+        <h1 className='title'>Movies</h1>
+      </header>
+      <main>
+        <MoviesGrid />
+      </main>
     </div>
   );
 }
